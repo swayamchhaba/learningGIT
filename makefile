@@ -16,7 +16,7 @@ prc:
     go install google.golang.org/protobuf/cmd/protoc-gen-go@v1.28.0 && \
     go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.3.0 && \
     export PATH=$PATH:$(go env GOPATH)/bin && \
-    echo $$PATH
+    #
 	
 
 
